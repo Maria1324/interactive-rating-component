@@ -24,7 +24,7 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/images/Screenshot_3.jpg)
+![Иллюстрация к проекту](https://github.com/Maria1324/interactive-rating-component/blob/main/images/Screenshot_3.png)
 
 
 
