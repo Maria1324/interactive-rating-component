@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Maria1324/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Maria1324/interactive-rating-component
+- Live Site URL: https://maria1324.github.io/interactive-rating-component
 
 ## My process
 
@@ -45,5 +45,5 @@ Users should be able to:
 ## Author
 
 - Website - <a href="https://github.com/Maria1324">Maria</a>
-- Frontend Mentor - [@Maria1324] https://www.frontendmentor.io/profile/Maria1324
+- Frontend Mentor - https://www.frontendmentor.io/profile/Maria1324
 
