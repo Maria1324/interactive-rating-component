@@ -1,81 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="Style.css">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
+
 <body>
-<div class="container">
-  <div class="container_content">
+  <main role="main">
     <div class="container_image">
-    <img alt="star_image" class="star" src="./images/icon-star.svg"  >
+      <img alt="star_image" class="star" src="./images/icon-star.svg">
     </div>
-    <div class="container_title">
-      <h3 class="title"> How did we do?</h3>
-    </div>
-    <div class="container_text">
-     <p class="text"> Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!</p>
-    </div>
+    <h1 class="title"> How did we do?</h1>
+    <p class="text"> Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
     <form>
-    <div class="container_rates">
-      <input type="radio" id="rate1" name="subscribe" value="1">
-        <label  class="rate" for="rate1"><p class="number">1</p></label>
-      <input type="radio" id="rate2" name="subscribe" value="2">
-        <label class="rate" for="rate2"><p class="number">2</p></label>
-      <input type="radio" id="rate3" name="subscribe" value="3">
-        <label class="rate" for="rate3"><p class="number">3</p></label>
-      <input type="radio" id="rate4" name="subscribe" value="4">
-        <label class="rate" for="rate4"><p class="number">4</p></label>
-      <input type="radio" id="rate5" name="subscribe" value="5">
-        <label class="rate"  for="rate5"><p class="number">5</p></label>
-      
-    </div>
-  
-  <div class="button_container">
-    <button onclick="getRadioValue()"class="button_submit">SUBMIT</button>
-  </div>
-  
-  </form>
+      <div class="container_rates">
+        <input type="radio" id="rate1" name="subscribe" value="1">
+          <label class="rate" for="rate1">1</label>
+        <input type="radio" id="rate2" name="subscribe" value="2">
+          <label class="rate" for="rate2">2</label>
+        <input type="radio" id="rate3" name="subscribe" value="3">
+          <label class="rate" for="rate3">3</label>
+        <input type="radio" id="rate4" name="subscribe" value="4">
+          <label class="rate" for="rate4">4</label>
+        <input type="radio" id="rate5" name="subscribe" value="5">
+          <label class="rate" for="rate5">5</label>
+      </div>
 
-
-</div>
-</div>
-  <!-- Rating state start -->
-
-
-
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-
+        <button onclick="getRadioValue()" class="button_submit">SUBMIT</button>
+    </form>
+  </main>
   <script src="script.js"></script>
 </body>
+
 </html>

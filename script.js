@@ -1,5 +1,5 @@
 let radioBtns=document.querySelectorAll("input[name='subscribe']");
-let cont =document.querySelector("div[class='container_content']");
+let cont =document.querySelector("main");
 let rate_title;
 
 const titlimg =`<div class="big_image_container">
